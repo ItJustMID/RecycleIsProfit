@@ -5,6 +5,11 @@ public class ManagerItem : MonoBehaviour
     [SerializeField] GameObject _objectItem;
     [SerializeField] GameObject _isItAvailable;
 
+    private void OnEnable()
+    {
+        Actions.OnDayChange += GetInstantiate;
+    }
+
     private void OnDisable()
     {
         Actions.OnDayChange -= GetInstantiate;
@@ -13,8 +18,6 @@ public class ManagerItem : MonoBehaviour
     private void Start()
     {
         GetInstantiate();
-
-        Actions.OnDayChange += GetInstantiate;
     }
 
     void GetInstantiate()

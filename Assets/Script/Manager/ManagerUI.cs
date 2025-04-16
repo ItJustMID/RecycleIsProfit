@@ -5,7 +5,9 @@ public class ManagerUI : MonoBehaviour
 {
     public static ManagerUI Instance;
 
-    [SerializeField, Header("Selling Reference")] TextMeshProUGUI[] _textItemForSell;
+    [Header("Option Button")] public GameObject _optionButton;
+
+    [SerializeField, Header("Selling Reference"), Space(10)] TextMeshProUGUI[] _textItemForSell;
     [SerializeField] TextMeshProUGUI _itemSell;
     [SerializeField] TextMeshProUGUI _amountItemSell;
 
@@ -29,4 +31,8 @@ public class ManagerUI : MonoBehaviour
     }
 
     public void MoveCharacter() => CharacterMovement._canMove = true;
+
+    public void Option() => Time.timeScale = 0;
+
+    public void Resume() => Time.timeScale = 1;
 }

@@ -8,5 +8,6 @@ public class NPC : Interaction
     {
         _canvas.SetActive(true);
         CharacterMovement._canMove = false;
+        ManagerUI.Instance._optionButton.SetActive(false);
     }
 }
