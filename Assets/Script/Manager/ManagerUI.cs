@@ -27,4 +27,6 @@ public class ManagerUI : MonoBehaviour
         _itemSell.text = seller._nameItem.ToString();
         _amountItemSell.text = seller._amountItem.ToString();
     }
+
+    public void MoveCharacter() => CharacterMovement._canMove = true;
 }

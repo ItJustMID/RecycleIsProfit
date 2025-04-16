@@ -6,6 +6,7 @@ public class NPC : Interaction
 
     public override void GetInteraction()
     {
-        Debug.Log("wkwk");
+        _canvas.SetActive(true);
+        CharacterMovement._canMove = false;
     }
 }

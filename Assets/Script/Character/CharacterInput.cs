@@ -4,8 +4,8 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(PlayerInput))]
 public class CharacterInput : MonoBehaviour
 {
-    Vector2 _isMoving;
-    Vector2 _isFacing;
+    public static Vector2 _isMoving;
+    public static Vector2 _isFacing;
     bool _isInteracting;
 
     CharacterMovement _characterMovement;
@@ -22,8 +22,6 @@ public class CharacterInput : MonoBehaviour
         {
             _isFacing = value.Get<Vector2>();
         }
-
-        _characterMovement.MovementCharacter(_isMoving, _isFacing);
     }
 
     private void OnInteraction(InputValue value)

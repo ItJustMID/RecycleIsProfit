@@ -3,11 +3,13 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
+    public static bool _canMove = true;
+
+    [SerializeField] float _speed;
+
     Rigidbody2D _rigidbody2D;
     Animator _animator;
     Interaction _interaction;
-
-    float _speed;
 
     private void Start()
     {
@@ -15,10 +17,14 @@ public class CharacterMovement : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
+    private void FixedUpdate()
+    {
+        MovementCharacter(CharacterInput._isMoving, CharacterInput._isFacing);
+    }
+
     public void MovementCharacter(Vector2 movement, Vector2 facing)
     {
-        if (movement.x == 1 || movement.x == -1 || movement.y == 1 || movement.y == -1) _speed = 2;
-        else _speed = 1.6f;
+        if (!_canMove) return;
 
         _rigidbody2D.velocity = movement * _speed;
 

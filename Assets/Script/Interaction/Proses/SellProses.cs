@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SellProses : MonoBehaviour
 {
-    Seller _seller;
+    [SerializeField] Seller _seller;
 
     [ProButton] void Test()
     {
