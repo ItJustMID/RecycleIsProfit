@@ -7,7 +7,12 @@ public class RandomSellStock : MonoBehaviour
 
     private void Start()
     {
-        _nameItems = new string[ManagerInvetori.Instance._listItem.Length];
+        UpdateListItemSell();
+    }
+
+    public static void UpdateListItemSell()
+    {
+        _nameItems = new string[ManagerInvetori.Instance._listItem.Count];
         for (int i = 0; i < _nameItems.Length; i++)
         {
             _nameItems[i] = ManagerInvetori.Instance._listItem[i]._nameItem;
@@ -16,7 +21,7 @@ public class RandomSellStock : MonoBehaviour
 
     public static void GetCustomer(Seller seller)
     {
-        seller._nameItem = _nameItems[_numberArray];
+        seller._nameItem = _nameItems[Random.Range(0, _nameItems.Length)];
         seller._amountItem = Random.Range(1, 11);
         if (_numberArray < _nameItems.Length - 1)
             _numberArray++;

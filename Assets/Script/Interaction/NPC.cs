@@ -7,7 +7,7 @@ public class NPC : Interaction
     public override void GetInteraction()
     {
         _canvas.SetActive(true);
-        CharacterMovement._canMove = false;
+        CharacterMovement.SetMovementCharacter(false);
         ManagerUI.Instance._optionButton.SetActive(false);
     }
 }

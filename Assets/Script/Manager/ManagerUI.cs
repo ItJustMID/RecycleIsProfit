@@ -18,7 +18,7 @@ public class ManagerUI : MonoBehaviour
 
     public void UpdateSellingReference(ManagerInvetori managerInvetori)
     {
-        for (int i = 0; i < _textItemForSell.Length; i++)
+        for (int i = 0; i < managerInvetori._listItem.Count; i++)
         {
             _textItemForSell[i].text = managerInvetori._listItem[i]._amountItem.ToString();
         }
@@ -29,8 +29,6 @@ public class ManagerUI : MonoBehaviour
         _itemSell.text = seller._nameItem.ToString();
         _amountItemSell.text = seller._amountItem.ToString();
     }
-
-    public void MoveCharacter() => CharacterMovement._canMove = true;
 
     public void Option() => Time.timeScale = 0;
 

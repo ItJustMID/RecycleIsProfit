@@ -16,6 +16,13 @@ public class ChoppingProcess : MonoBehaviour
     string _nameItem;
     TextMeshProUGUI _amountItemText;
 
+    ManagerInvetori _managerInventory;
+
+    private void Start()
+    {
+        _managerInventory = ManagerInvetori.Instance;
+    }
+
     public void AddAmount()
     {
         if (_amount < _maxAmount)
@@ -36,16 +43,30 @@ public class ChoppingProcess : MonoBehaviour
 
     public void Chopping()
     {
-        _timerCountdown = 2f;
-        _sliderTimer.maxValue = _timerCountdown;
-        _sliderTimer.value = _timerCountdown;
+        for (int i = 0; i < _managerInventory._inventoriSlot.Length; i++)
+        {
+            if (_managerInventory._inventoriSlot[i]._nameItem == _nameItem && _managerInventory._inventoriSlot[i]._amountItem > 0)
+            {
+                _managerInventory._inventoriSlot[i]._amountItem -= _amount;
+                _managerInventory._bijiPlastik._amountItem += _amount * _managerInventory._inventoriSlot[i]._multiplicationOfItem;
 
-        StartCoroutine(TimerChopping());
+                _timerCountdown = 2f;
+                _sliderTimer.maxValue = _timerCountdown;
+                _sliderTimer.value = _timerCountdown;
+
+                StartCoroutine(TimerChopping());
+                return;
+            }
+            else if (_managerInventory._inventoriSlot[i]._nameItem == _nameItem && _managerInventory._inventoriSlot[i]._amountItem == 0)
+            {
+                Debug.Log("Item Not Enough");
+            }
+        }
     }
 
     public void ButtonItem(int number)
     {
-        ManagerInvetori.Instance.GetButtonInfo(number, ref _nameItem, ref _amountItemText, ref _maxAmount);
+        InventoryButtonText(number);
 
         _addAndReduceButton.GetComponent<RectTransform>().localPosition = new Vector3(-200, _position[number].localPosition.y, 0);
 
@@ -63,6 +84,14 @@ public class ChoppingProcess : MonoBehaviour
         _amountText.text = _amount.ToString();
     }
 
+    void InventoryButtonText(int number)
+    {
+        _nameItem = _managerInventory._inventoriSlot[number]._nameItem;
+        _maxAmount = _managerInventory._inventoriSlot[number]._amountItem;
+
+        _amountItemText.text = _maxAmount.ToString();
+    }
+
     IEnumerator TimerChopping()
     {
         while (_timerCountdown > 0)
@@ -72,7 +101,6 @@ public class ChoppingProcess : MonoBehaviour
             yield return null;
             if (_timerCountdown < 0)
             {
-                ManagerInvetori.Instance.GetReduceChoppingItem(_nameItem, _amount);
                 ResetAmount();
             }
         }

@@ -1,3 +1,5 @@
+using UnityEngine;
+
 [System.Serializable]
 public class InventorySlot
 {
@@ -27,4 +29,12 @@ public class NumberGacha
 {
     public int _minNumber;
     public int _maxNumber;
+}
+
+[System.Serializable]
+public class Upgrade
+{
+    public ItemForSell _itemData;
+    public GameObject _buttonItem;
+    public int _price;
 }

@@ -1,15 +1,10 @@
-using com.cyborgAssets.inspectorButtonPro;
 using System.Collections;
 using UnityEngine;
 
 public class SellProses : MonoBehaviour
 {
     [SerializeField] Seller _seller;
-
-    [ProButton] void Test()
-    {
-        StartCoroutine(TimerCooldownCustomer());
-    }
+    [SerializeField] AudioSource _audioSource;
 
     private void Start()
     {
@@ -18,7 +13,7 @@ public class SellProses : MonoBehaviour
 
     public void GetShipping()
     {
-        for (int i = 0; i < ManagerInvetori.Instance._listItem.Length; i++)
+        for (int i = 0; i < ManagerInvetori.Instance._listItem.Count; i++)
         {
             if (ManagerInvetori.Instance._listItem[i]._nameItem == _seller._nameItem)
             {
@@ -36,6 +31,7 @@ public class SellProses : MonoBehaviour
             return;
         }
 
+        _audioSource.Play();
         ManagerInvetori.Instance._listItem[i]._amountItem -= _seller._amountItem;
         ManagerInvetori.Instance.UpdateMoney(ManagerInvetori.Instance._listItem[i]._price * _seller._amountItem);
         ManagerUI.Instance.UpdateSellingReference(ManagerInvetori.Instance);
