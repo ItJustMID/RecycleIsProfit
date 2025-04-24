@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: ae5f72e1f7158ce4b9fc9b9156692685
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rumah-1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1396
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57625a3d09072d544be901eaf176daf6
+      internalID: 239588378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1396
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd77ea77b7637af43b1d7db00bbe36f9
+      internalID: 1965281992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_2
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1396
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f39d0ca86ec9dd48b08bb7566ec2762
+      internalID: 1095291003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_3
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1396
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddf2995616a57941ac54a6abbf8db6a
+      internalID: 1707145417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_4
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1396
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97eed69888276d84c991a6b99b896d0f
+      internalID: -1601270680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_5
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1396
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77320acbc730d8b45bfd120d2bca83cd
+      internalID: 772539924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_6
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1396
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4301e681e24faa240aefc01e227762a3
+      internalID: 197949464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1092
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d0e75d4dde10645b338bd800d82016
+      internalID: 1991880648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1092
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dce0bb5ee6d5b34c8632ea0da875521
+      internalID: 356565703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_9
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1092
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bb3a0236ea5d24b8de26f9d8d958f8
+      internalID: 9539949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_10
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1092
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e164ca4dc93c625429b6b759fbb1cb75
+      internalID: -32324993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_11
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1092
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844e01cb12ce7294dbbfe5ca5f48e447
+      internalID: 354604765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_12
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1092
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5286b4b3ad4d7d4c8d2d6ce4f33627e
+      internalID: -588923916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_13
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1092
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0847cbe656e4849b84305f8a87f5e5
+      internalID: 142957079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23986197001ea184a81f5a232e1305ad
+      internalID: 525401866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_15
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 788
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f031effac5a5e184f8498ba1bfd84c57
+      internalID: 1719557143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_16
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 788
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a820e68a0a6654e89e7c7b2b5ae23a
+      internalID: -2087095027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_17
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 788
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0fff860ca5f464a9476798ff7d4631
+      internalID: 1559267827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_18
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 788
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5150d8d2146ad4695c887d0f190eed
+      internalID: -1898499303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_19
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 788
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe8265dfacbcbf4a84c182ede7a4027
+      internalID: 243736575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_20
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 788
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9ea93dfae33184c84a9b65d6e65728
+      internalID: 184353040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 484
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0c0afde2a6b374f91c1fc7cd146b4a
+      internalID: -862676823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_22
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 484
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6540e25388177cb4781049f88143ea26
+      internalID: 1013276701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_23
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 484
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c140549efe961b4fa9bc06083f0cf38
+      internalID: 1321030315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_24
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 484
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8523a9e2e9e876d4e97fadcf27081b0f
+      internalID: 142001410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_25
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 484
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbda4f1ce590ec4ea025cfb815620ca
+      internalID: -1969259264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_26
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 484
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4b90d7892e6ba44a1017bbb6303709
+      internalID: -1884171889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_27
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 484
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0926c37e291f1e34485ec422d234887e
+      internalID: -60232213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d500a367f077b845bf7f37a5b67d989
+      internalID: 658960426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_29
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 180
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd6e6ccb5325894f8672f978da6d9ec
+      internalID: 1040098289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_30
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 180
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110849dc27c3d1641964026d1c59e887
+      internalID: 660501771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_31
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 180
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc44ad50bffa46b42aad12a0b224345e
+      internalID: 2090429571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_32
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 180
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b48bc642c016347a37625da1450606
+      internalID: -310892172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_33
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 180
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ca00f6e597c0a47963ab10f65401e6
+      internalID: 1761017801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rumah-1_34
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 180
+        width: 305
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2a4f199fd15a447ad6b9ad74cd45c0
+      internalID: -1445996283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rumah-1_0: 239588378
+      Rumah-1_1: 1965281992
+      Rumah-1_10: -32324993
+      Rumah-1_11: 354604765
+      Rumah-1_12: -588923916
+      Rumah-1_13: 142957079
+      Rumah-1_14: 525401866
+      Rumah-1_15: 1719557143
+      Rumah-1_16: -2087095027
+      Rumah-1_17: 1559267827
+      Rumah-1_18: -1898499303
+      Rumah-1_19: 243736575
+      Rumah-1_2: 1095291003
+      Rumah-1_20: 184353040
+      Rumah-1_21: -862676823
+      Rumah-1_22: 1013276701
+      Rumah-1_23: 1321030315
+      Rumah-1_24: 142001410
+      Rumah-1_25: -1969259264
+      Rumah-1_26: -1884171889
+      Rumah-1_27: -60232213
+      Rumah-1_28: 658960426
+      Rumah-1_29: 1040098289
+      Rumah-1_3: 1707145417
+      Rumah-1_30: 660501771
+      Rumah-1_31: 2090429571
+      Rumah-1_32: -310892172
+      Rumah-1_33: 1761017801
+      Rumah-1_34: -1445996283
+      Rumah-1_4: -1601270680
+      Rumah-1_5: 772539924
+      Rumah-1_6: 197949464
+      Rumah-1_7: 1991880648
+      Rumah-1_8: 356565703
+      Rumah-1_9: 9539949
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

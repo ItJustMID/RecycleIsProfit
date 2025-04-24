@@ -1,0 +1,4866 @@
+fileFormatVersion: 2
+guid: 79c41ff158617f343991c6f42a706812
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tile maps_tebing _0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 372
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a000b874abc0ec48998252f3574685c
+      internalID: 1236434496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 372
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2bacc033b0e344da580375a1ec78ae
+      internalID: 1894676693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 372
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcefb382f42588a4bb0d15e3cc765701
+      internalID: 900676215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 372
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe434dfc0d9173047b1bfe06e712ae92
+      internalID: 1165225502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 372
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f457c5d643c6434398ffabc28bbe38b
+      internalID: -1683363891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 372
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe2f54fbf3325645b7003dc9de798c8
+      internalID: 1346971141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 372
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b81618c6bf44e44fb2bb52faf0cf43b
+      internalID: -663512405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 372
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9e404504a22cb4e9f7f26f34fc9fcf
+      internalID: -813648101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 372
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbb4d14f402401469a57c4a702bb78f
+      internalID: -271938580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 372
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13e519463937dd4a878531bf55078e3
+      internalID: -1565849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfeedf92708f9a34188aa24ddc40302a
+      internalID: 1999445462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472e8ccb8aa7e5042a2bef0028aa654b
+      internalID: 617007076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e48388637630641a890fb936b373d0
+      internalID: 827332946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48db6eb501bc5d84a8359af4b8dc225c
+      internalID: 1184759501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4473e57fd19c3d744ae247aef155d3b9
+      internalID: -1263020766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _15
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14862d85a9d7bfe4b955f4afb661b8a2
+      internalID: 850804187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4cda9b3a40b294da5df3578a1d7ad3
+      internalID: 1428002307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _17
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1df30e5f07f43f4abcf1d5b0ae6613e
+      internalID: -1066322013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f19230a07fbc1d489e27937c373f4ac
+      internalID: -645358521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2aa150537858ae42836a780abc146b8
+      internalID: 1651223997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c581f4efe2b4f0458223d2c1a3fb56d
+      internalID: -17440308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b11e952609cb14da862cb5e4fa5a29
+      internalID: 1822046848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b266352f44e1043b34b17dfa3ba054
+      internalID: -644258115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _23
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 355
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172174cf49fffda4bb64abbdf19ac15a
+      internalID: 460750537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d784c0d84ed4de84dbc773e6ea444239
+      internalID: -330864262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _25
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d1df24ef9725d4eb1cbb8bf140094e
+      internalID: 2072802773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23de540bdad28e845b18ac88d2c34944
+      internalID: 1629211995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b11e1e80672ddb47ac4b2749da78184
+      internalID: -2031036367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8b9d297a989454e88c21b43010b94f
+      internalID: -439152786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe8f6cd6925bf649b9c6a374420a941
+      internalID: 529626709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d49dc3249fa82e4c9590a0db937ff20
+      internalID: -585643826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bc104049c93da4b9a136954608c90c
+      internalID: 824387800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03e0c2ac15017a4f901645e1a1eb728
+      internalID: -1986761928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcb2d111af1e214ca7cb17845a97e92
+      internalID: 1616235062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb8e38146694374f9df4f084f4bb459
+      internalID: 795301468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _35
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c727496307774074894bc5eb5f610467
+      internalID: 1154017649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd6a52d2b350684b93b3c84bfc7ed15
+      internalID: 631610441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _37
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 338
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb85915a9415b774f9cd5916b5f9ab2e
+      internalID: -1219555619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 321
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fd15cad20e42249af6b062b837a259
+      internalID: 1896348303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 321
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035df508abc8a444596ce9d2e2f0ba33
+      internalID: -113768379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 321
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784cdf7d5eff3c24ab723c1377e16ae8
+      internalID: 1442955291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 321
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d569350b1771abc4088257b6e17d417d
+      internalID: 709811478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 321
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ad8715d5ea18a4791d26c322297239
+      internalID: 794936804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 321
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ee9a5df1f649a488e4e37cb9451a58
+      internalID: -644741393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 321
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099114b5b618ad34c9feba7d7fde741b
+      internalID: 2031221488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 321
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e77fc8d69e23548ac824992be64648
+      internalID: -569409558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _46
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 321
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf5e0ffdc09efd46947bb0193785803
+      internalID: -1665877238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 321
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c405568c5a3190e4a8afb8dbc653b413
+      internalID: 660617871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _48
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6166ecf92dc26843b5e1b6c730e1d06
+      internalID: -107696576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2dd2a7a4f62e54a8e6ee958df28f22
+      internalID: -2098470491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 304
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74af0bbd2ca3de4d8c6ed72ffb34a4f
+      internalID: -405749308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _51
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 304
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a012063be7cf7514a8dac9e5f8080056
+      internalID: -1441572095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 304
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8204223204c7094e93893e48747d554
+      internalID: 552394831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 287
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065d11df02af76e47bc918b6f7de2e3c
+      internalID: -1656080908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _54
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 287
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b1e60458452364ea53cf2625bb62b7
+      internalID: 331179115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 287
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94081cb0fd3567f42a2249a0a44adfa6
+      internalID: -147286774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _56
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 287
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bcff68c0a285e4199c82cca2f28832
+      internalID: 1332825922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _57
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 287
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efbb047830862944a234cc98f90d55b
+      internalID: 1423374548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _58
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 287
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebe5820604215d469eda2c7d89beebe
+      internalID: -1061149016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 287
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51df2cc15151604a8d33847fe2f7027
+      internalID: 1512124579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _60
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 287
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361cc00290fc4184aa1071f40e4d209a
+      internalID: -477334260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 270
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b7988fc77bb3943923decd160f5872
+      internalID: -599872291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _62
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 270
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9ab798daa067741928ae2b666395ca
+      internalID: 561588751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 270
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c623f70f1b627cc4d98cbb25d1578504
+      internalID: 1597974265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 270
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdaf8fc19072874796ab2a018c5f49c
+      internalID: 1658877362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 270
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7974405f50a77645b2c9799fe3fca72
+      internalID: -345232587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _66
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 270
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5110bcfed93c28b479ab184cbe52c636
+      internalID: 1803607780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 270
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca1adf8afdf6154e89e73d7f51cdc77
+      internalID: -983436194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _68
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 270
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5e421d32fbf9b4a9d1428ad703d745
+      internalID: 1563134091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 253
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3213b4fa070254948a022ebd4ef1a431
+      internalID: 422986723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 253
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25023a61db0e8374cbb931b15eae9fe0
+      internalID: -1366551858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 253
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9149e2c48fa5541a0f9b5c90b71b6f
+      internalID: 955920666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 253
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ece3eb6b0460c54086e4450ac7c4305
+      internalID: -1122054415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _73
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 253
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68241269ff74db4d91596f399d784d0
+      internalID: 1487562559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 253
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba361d31ef7bec46844a955aeb7c252
+      internalID: 55625714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 253
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baef946ec89f90c4797a74ef5ccf14d3
+      internalID: -1185781291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 253
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4901cec2a08a7a942a0e95cab2b1363a
+      internalID: -695595601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _77
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 253
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62322cfc5a6dae341a8556d4fdc20baa
+      internalID: -2046271287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd203305d0f1cc4190162d7ce28074c
+      internalID: -331232345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _79
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 236
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf165f69c5b7374a819919d2fefb289
+      internalID: -1514699321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 236
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5434c4f68dfb9b4093460376176f335
+      internalID: 1112935814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _81
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 236
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c332951471543004b88b61de77911373
+      internalID: 2053390643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _82
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 236
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd94a9d0c95932b44a0cbcac7cffe377
+      internalID: 1455348550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _83
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 236
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b31ba99f21accc43b7655a8a16b3288
+      internalID: -634073227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _84
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 236
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701556dcd5708a647a5cf159377f7de3
+      internalID: 184628134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _85
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 236
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcd3bb025476bb44b439c8ce7eea785
+      internalID: -1286426252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 236
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116f8918169915540ad463b8b738d97c
+      internalID: -2718009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _87
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 236
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e927640b17faa247b5da06b19158394
+      internalID: -1074598564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b18c8647260bac4198b2f89be525e12
+      internalID: 235468964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ef7d08292fcac43a68c0bdf3b58708
+      internalID: -185164155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eba64e887c325d4ea63821f42b6a552
+      internalID: 1728665617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10341cf79fde79c4c836aa18cdd315da
+      internalID: -48991852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6c0f2bb8b8a8048bc18020abad6bcd
+      internalID: -718372936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _93
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea98189988a211244954a502388b9cbd
+      internalID: 664048553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8101f38db5486424db61133ad68e8e28
+      internalID: -367529569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _95
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b21da65fd3f4e046833e95612cbb956
+      internalID: -793946674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _96
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12ef27d077e59a44803a3573030cb39
+      internalID: 1088770494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _97
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ab3c9d4743b6946994558ca0051ecd
+      internalID: 1916446193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf2c33583a11d741a2039602a0abe21
+      internalID: -2060497730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _99
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86691e56d5f2524dac9e317ff4681f7
+      internalID: 334842867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3197a0163fe79204fb847838a8e79cf2
+      internalID: 783458181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _101
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 202
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1041317cee7a9d440a5fdeb77b6c2828
+      internalID: 1924197580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _102
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 202
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3281c87fda156784c97380e2c915e7b9
+      internalID: 802272506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 202
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521646c7de201bc4e922c46186756199
+      internalID: -57385998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _104
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 202
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12388b1de90a452439e8c206d0d3318f
+      internalID: 296420921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 202
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29ab4cec11888c45862d60371be539b
+      internalID: 1298820816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _106
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 202
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc30c2136fa32c4b9a405474e925d2d
+      internalID: -2140455272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _107
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 202
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea8aa1eb19c1c644ba1502a4a778761
+      internalID: 2088558168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _108
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 202
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a0b44d887b19a4ab86b3ddc2362bf7
+      internalID: 1777816437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _109
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa054dbd318910547a0fe54f4aebc569
+      internalID: -369097457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _110
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 185
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cfc23d6c95d544d9f391b5f19a8d18
+      internalID: 18253708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _111
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 185
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2d909f2a491eb4191be54551828b74
+      internalID: -1528443240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 185
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882e105722270924a99b5b85abf8bbea
+      internalID: -383356094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _113
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 185
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ddba571a18e354ba37b596fde83a2f
+      internalID: 234266383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _114
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 185
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3018b10b851b85242af6cd37ada441a7
+      internalID: -415927609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _115
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 185
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df63a5e474db56247a78ed5ffd356831
+      internalID: -734116110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 185
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80f17e98a4e2944a8eb3ccf118a1039
+      internalID: -1343134036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _117
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 185
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088aef8c12cd99a4b8d8fd79049f19fb
+      internalID: 1202366894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 185
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6258b1883efa24385a683dc7b3c162
+      internalID: -1236964502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _119
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 185
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62797d7939c967540a9af6244f459ebf
+      internalID: 1962961489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b436f9ed93948c14785b4cd7843bb517
+      internalID: -1368809491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _121
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e70135b6ec2d8a4b9d30ad6e537bd13
+      internalID: 1353200734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _122
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7aab02548875640a5f2f19b6be7ac9
+      internalID: 552274499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _123
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cf7f3692312184a92939892e5d1024
+      internalID: -2031848230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _124
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02558f62010455c4eb98aae3bba9c174
+      internalID: 1677911373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _125
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511650541f66a784996a3c43b9fd0163
+      internalID: 719405886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _126
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e3235bb9ab7514aad709430ddd7b28
+      internalID: -873419418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _127
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4077f2abd090ca04588ffc76e0dea396
+      internalID: -1522807186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _128
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102d70bef8f87f54e97a5923ac2ab683
+      internalID: 445832830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _129
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955e2b98867204e4f8d525c3fc2ca79f
+      internalID: 979780865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _130
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd152ebd63d6bd745aa199564e666605
+      internalID: 187255535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8032dd3995572146948b54fe0185c98
+      internalID: -1682306305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _132
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 168
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bf90ddf08f6c74198cf9ac941a4a4b
+      internalID: 1502298297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6e3d5b115d2774fb918c2e9ba05c0e
+      internalID: -106688225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _134
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b24223d0bdf2344be5dd96a1e23e60
+      internalID: 402019286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _135
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815876bc2d642af4a9e8e07e0792e532
+      internalID: 211240808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _136
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ec19f5fa86cd84aa65cd687daeefc7
+      internalID: -699728454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _137
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf69e386c12b4094db7ca8afa69c63f7
+      internalID: -1614739037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _138
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9f4dd00d63da345834b4eb7d4dbc32
+      internalID: 708435623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _139
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538f139b1730f5c49a364b763465e99d
+      internalID: -216113642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _140
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3239b4405660ec348837b5e6e0ba4587
+      internalID: 650851972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _141
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a185f0e71f7b134da2885390fc47148
+      internalID: 1535798066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _142
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f5300b26947cf418d5bc076233d8ee
+      internalID: -269940362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _143
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a717ba7ebf6fa724cbb5b76ab1f4b8b2
+      internalID: 632666862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _144
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f994aac702adcc488b8b7bdc8784168
+      internalID: -495807482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _145
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 151
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c595d9d9d819cf04081b91be7d3c2e34
+      internalID: -1555555426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfdf44a3bd2335498549da7d03236c8
+      internalID: -1596847616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _147
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c9797d377cd4549bf3aa642e93ce68
+      internalID: -345638837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _148
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c383113c953f4343b69e8dddc6935a2
+      internalID: 1456717298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _149
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d04ac369cf4fa346ab48f712a7d05ac
+      internalID: 1247223886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _150
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc8312026c93274c8140c9bd31d870d
+      internalID: 849149765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _151
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139d7c07b7c79844d8642380f434fded
+      internalID: -1839852632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _152
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062a9fe279b060c41ba3eaa79a0e701d
+      internalID: -163782565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _153
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d794807c41ae6954d988baabfc6db0a5
+      internalID: -1502857685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _154
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7727d9ae207af4887d3ed6afe65180
+      internalID: 1286158719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _155
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc7c182b7ae7b848bb4dd1ab154c5ed
+      internalID: -2107559853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _156
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 134
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdd6b66843802346bba4b3f80848d90
+      internalID: -1678589012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _157
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 117
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68ba0eb1b2df5d419916ef154cebf1a
+      internalID: -793287762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _158
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 117
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd0d570419b886419fe6c3ed6d037d1
+      internalID: -215519271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _159
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 117
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2ae3cccd5fb2a4dac872abd8c8ffbe
+      internalID: 2119975494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _160
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 117
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0ee147d94fe5e46b1113319dd9b7e7
+      internalID: -416523922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _161
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 117
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bfceb065a2f9742beaf721be8adfe1
+      internalID: -848804545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _162
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 117
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a584d2625a264043b26c0e5e66ae43b
+      internalID: 1337727691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _163
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 117
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5d139a003543f42be3014370a622e4
+      internalID: -1757458532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _164
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 117
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db5000670e977c4e833ba06cfb75817
+      internalID: -654562634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _165
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 100
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ac65fdcb409264c949212af2ee1b69
+      internalID: 1567817518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _166
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 100
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4b26ee428eb4b4eadd664fdb26f117
+      internalID: 360347287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _167
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 100
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cb9664a92d6134aab482b45d20f7fc
+      internalID: 66327945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _168
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 100
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f7ff9a9bfb20d48b6b9a941c497089
+      internalID: -142015764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _169
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 100
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10594c404cf118846a65bbcb23ce8800
+      internalID: -306261051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _170
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 100
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9d6399bd24bf340a44268fe0cc96e5
+      internalID: -525553407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _171
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 100
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ec70138c42eb84f9c40890f652b42f
+      internalID: -745337349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _172
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 100
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13a55ab0799d7044ab01f4f487b66c2
+      internalID: -1274322913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _173
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 83
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05aa83aac930efa4ca7ddb46e7118888
+      internalID: 1245102222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _174
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 83
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae61ea35729a2e9459aeba2002612d7b
+      internalID: -1933748956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _175
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 83
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196cdd0e0dff4634ea20dbb3a7ca369f
+      internalID: 1032160289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _176
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 83
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd62829d84492a0419f11140aaa24ac7
+      internalID: 842481116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _177
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 83
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3af7afc33a0774bab1c4529b7a0200
+      internalID: -1461205789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _178
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 83
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306a0e22c83e7344880f21d52b688f54
+      internalID: -1782359607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _179
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 83
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d3e4f9ffa4a924689a5b9a7646e034
+      internalID: -446059616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _180
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 83
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6621710dbb3169842ab9e5f646ccfcf5
+      internalID: -1306000653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _181
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 66
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c198a158a19f1504496fd1d0720c6654
+      internalID: -1350120123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _182
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 66
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efca97998b14df04b95f31c92eff6845
+      internalID: -393281573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _183
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 66
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6533dfc9b46e454ea180a572c167c53
+      internalID: -238270293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _184
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 66
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08651c8fbf7384b4d8fcf4df86a740e1
+      internalID: -1375107614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _185
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 66
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b439ffe0615b5344a9c2cd87d939f8c
+      internalID: -708875470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _186
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 66
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fd3f376b83a3441b5d6b40549772f9
+      internalID: -1820500768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _187
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 66
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5150bc0f44c4754eb3eed6bc82103f9
+      internalID: -1465724122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _188
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 66
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f36a7292da06b44bbe3fc4006bf384
+      internalID: 62687329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _189
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 49
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ff3ed83f7377047b38ba401395bf7a
+      internalID: -1850431414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _190
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 49
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aeb0b9862540244806daa6383cf600
+      internalID: -138089067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _191
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 49
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b634abad80d91342bc884cec81d7b95
+      internalID: -173435924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _192
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 49
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9a9d5c29aa77a40a0d02d41149d73c
+      internalID: -2085824081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _193
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 49
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5342f9c7f669c2948addfa055449df68
+      internalID: -932461869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _194
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 49
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ffda7dab9aa674f8f6e1262d8128eb
+      internalID: 1798488163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _195
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 49
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac26aefab07f3c4da68a5525ee54017
+      internalID: 1831040873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _196
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 49
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01c2291331029f4bbdcb8f8581ca10b
+      internalID: -1366754934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _197
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 49
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afea2ea33d24b544ab23f3b8fb4108e1
+      internalID: -1151435564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _198
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0941e25c1d85744a839c129bdaff9d4
+      internalID: 360432083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _199
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6ca5b1417c0564e88a3fa559a4e869
+      internalID: -1671553178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _200
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ab2b1d0795cf54099a30cdd7cd90dd
+      internalID: 1946776788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _201
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d33b43af8f33e43bcd984b3f9ab8be
+      internalID: 1411481168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _202
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92940b701275ef04ebc1091b0dd519c3
+      internalID: 241702146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _203
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c74c5dc41458146ad0700a20afb411
+      internalID: -500280200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _204
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635548aba4fbf6149adf9656e5672c06
+      internalID: 1613260727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _205
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658f6ed3a941f204da8764196e47e4f1
+      internalID: -1266007325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _206
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8399aed37989c44b1f4dc64dc36ea9
+      internalID: -507878481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _207
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa463a45bc66e74eb136dd1f24f6208
+      internalID: -1447655199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _208
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2daf669206a2146a5bd145e3a39cca
+      internalID: -1331397325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _209
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ac37fcef1a22143a12081aea7519d4
+      internalID: 1522911403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _210
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7456d65f35dd28846b1a97c9e1e0edd2
+      internalID: -1602582376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _211
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2172fbd4f3fcf444abda65dcd70359bd
+      internalID: 1655559698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _212
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e68151bb639d854f886db3b6dd66d92
+      internalID: 741698817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _213
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b4d96e18934804291a34b326b66adf
+      internalID: 295083558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _214
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e7214cc7467fe44b0698b028df5545
+      internalID: -861824226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile maps_tebing _215
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f088a15410aca4387a656f6882783a
+      internalID: 643950090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tile maps_tebing _0: 1236434496
+      tile maps_tebing _1: 1894676693
+      tile maps_tebing _10: 1999445462
+      tile maps_tebing _100: 783458181
+      tile maps_tebing _101: 1924197580
+      tile maps_tebing _102: 802272506
+      tile maps_tebing _103: -57385998
+      tile maps_tebing _104: 296420921
+      tile maps_tebing _105: 1298820816
+      tile maps_tebing _106: -2140455272
+      tile maps_tebing _107: 2088558168
+      tile maps_tebing _108: 1777816437
+      tile maps_tebing _109: -369097457
+      tile maps_tebing _11: 617007076
+      tile maps_tebing _110: 18253708
+      tile maps_tebing _111: -1528443240
+      tile maps_tebing _112: -383356094
+      tile maps_tebing _113: 234266383
+      tile maps_tebing _114: -415927609
+      tile maps_tebing _115: -734116110
+      tile maps_tebing _116: -1343134036
+      tile maps_tebing _117: 1202366894
+      tile maps_tebing _118: -1236964502
+      tile maps_tebing _119: 1962961489
+      tile maps_tebing _12: 827332946
+      tile maps_tebing _120: -1368809491
+      tile maps_tebing _121: 1353200734
+      tile maps_tebing _122: 552274499
+      tile maps_tebing _123: -2031848230
+      tile maps_tebing _124: 1677911373
+      tile maps_tebing _125: 719405886
+      tile maps_tebing _126: -873419418
+      tile maps_tebing _127: -1522807186
+      tile maps_tebing _128: 445832830
+      tile maps_tebing _129: 979780865
+      tile maps_tebing _13: 1184759501
+      tile maps_tebing _130: 187255535
+      tile maps_tebing _131: -1682306305
+      tile maps_tebing _132: 1502298297
+      tile maps_tebing _133: -106688225
+      tile maps_tebing _134: 402019286
+      tile maps_tebing _135: 211240808
+      tile maps_tebing _136: -699728454
+      tile maps_tebing _137: -1614739037
+      tile maps_tebing _138: 708435623
+      tile maps_tebing _139: -216113642
+      tile maps_tebing _14: -1263020766
+      tile maps_tebing _140: 650851972
+      tile maps_tebing _141: 1535798066
+      tile maps_tebing _142: -269940362
+      tile maps_tebing _143: 632666862
+      tile maps_tebing _144: -495807482
+      tile maps_tebing _145: -1555555426
+      tile maps_tebing _146: -1596847616
+      tile maps_tebing _147: -345638837
+      tile maps_tebing _148: 1456717298
+      tile maps_tebing _149: 1247223886
+      tile maps_tebing _15: 850804187
+      tile maps_tebing _150: 849149765
+      tile maps_tebing _151: -1839852632
+      tile maps_tebing _152: -163782565
+      tile maps_tebing _153: -1502857685
+      tile maps_tebing _154: 1286158719
+      tile maps_tebing _155: -2107559853
+      tile maps_tebing _156: -1678589012
+      tile maps_tebing _157: -793287762
+      tile maps_tebing _158: -215519271
+      tile maps_tebing _159: 2119975494
+      tile maps_tebing _16: 1428002307
+      tile maps_tebing _160: -416523922
+      tile maps_tebing _161: -848804545
+      tile maps_tebing _162: 1337727691
+      tile maps_tebing _163: -1757458532
+      tile maps_tebing _164: -654562634
+      tile maps_tebing _165: 1567817518
+      tile maps_tebing _166: 360347287
+      tile maps_tebing _167: 66327945
+      tile maps_tebing _168: -142015764
+      tile maps_tebing _169: -306261051
+      tile maps_tebing _17: -1066322013
+      tile maps_tebing _170: -525553407
+      tile maps_tebing _171: -745337349
+      tile maps_tebing _172: -1274322913
+      tile maps_tebing _173: 1245102222
+      tile maps_tebing _174: -1933748956
+      tile maps_tebing _175: 1032160289
+      tile maps_tebing _176: 842481116
+      tile maps_tebing _177: -1461205789
+      tile maps_tebing _178: -1782359607
+      tile maps_tebing _179: -446059616
+      tile maps_tebing _18: -645358521
+      tile maps_tebing _180: -1306000653
+      tile maps_tebing _181: -1350120123
+      tile maps_tebing _182: -393281573
+      tile maps_tebing _183: -238270293
+      tile maps_tebing _184: -1375107614
+      tile maps_tebing _185: -708875470
+      tile maps_tebing _186: -1820500768
+      tile maps_tebing _187: -1465724122
+      tile maps_tebing _188: 62687329
+      tile maps_tebing _189: -1850431414
+      tile maps_tebing _19: 1651223997
+      tile maps_tebing _190: -138089067
+      tile maps_tebing _191: -173435924
+      tile maps_tebing _192: -2085824081
+      tile maps_tebing _193: -932461869
+      tile maps_tebing _194: 1798488163
+      tile maps_tebing _195: 1831040873
+      tile maps_tebing _196: -1366754934
+      tile maps_tebing _197: -1151435564
+      tile maps_tebing _198: 360432083
+      tile maps_tebing _199: -1671553178
+      tile maps_tebing _2: 900676215
+      tile maps_tebing _20: -17440308
+      tile maps_tebing _200: 1946776788
+      tile maps_tebing _201: 1411481168
+      tile maps_tebing _202: 241702146
+      tile maps_tebing _203: -500280200
+      tile maps_tebing _204: 1613260727
+      tile maps_tebing _205: -1266007325
+      tile maps_tebing _206: -507878481
+      tile maps_tebing _207: -1447655199
+      tile maps_tebing _208: -1331397325
+      tile maps_tebing _209: 1522911403
+      tile maps_tebing _21: 1822046848
+      tile maps_tebing _210: -1602582376
+      tile maps_tebing _211: 1655559698
+      tile maps_tebing _212: 741698817
+      tile maps_tebing _213: 295083558
+      tile maps_tebing _214: -861824226
+      tile maps_tebing _215: 643950090
+      tile maps_tebing _22: -644258115
+      tile maps_tebing _23: 460750537
+      tile maps_tebing _24: -330864262
+      tile maps_tebing _25: 2072802773
+      tile maps_tebing _26: 1629211995
+      tile maps_tebing _27: -2031036367
+      tile maps_tebing _28: -439152786
+      tile maps_tebing _29: 529626709
+      tile maps_tebing _3: 1165225502
+      tile maps_tebing _30: -585643826
+      tile maps_tebing _31: 824387800
+      tile maps_tebing _32: -1986761928
+      tile maps_tebing _33: 1616235062
+      tile maps_tebing _34: 795301468
+      tile maps_tebing _35: 1154017649
+      tile maps_tebing _36: 631610441
+      tile maps_tebing _37: -1219555619
+      tile maps_tebing _38: 1896348303
+      tile maps_tebing _39: -113768379
+      tile maps_tebing _4: -1683363891
+      tile maps_tebing _40: 1442955291
+      tile maps_tebing _41: 709811478
+      tile maps_tebing _42: 794936804
+      tile maps_tebing _43: -644741393
+      tile maps_tebing _44: 2031221488
+      tile maps_tebing _45: -569409558
+      tile maps_tebing _46: -1665877238
+      tile maps_tebing _47: 660617871
+      tile maps_tebing _48: -107696576
+      tile maps_tebing _49: -2098470491
+      tile maps_tebing _5: 1346971141
+      tile maps_tebing _50: -405749308
+      tile maps_tebing _51: -1441572095
+      tile maps_tebing _52: 552394831
+      tile maps_tebing _53: -1656080908
+      tile maps_tebing _54: 331179115
+      tile maps_tebing _55: -147286774
+      tile maps_tebing _56: 1332825922
+      tile maps_tebing _57: 1423374548
+      tile maps_tebing _58: -1061149016
+      tile maps_tebing _59: 1512124579
+      tile maps_tebing _6: -663512405
+      tile maps_tebing _60: -477334260
+      tile maps_tebing _61: -599872291
+      tile maps_tebing _62: 561588751
+      tile maps_tebing _63: 1597974265
+      tile maps_tebing _64: 1658877362
+      tile maps_tebing _65: -345232587
+      tile maps_tebing _66: 1803607780
+      tile maps_tebing _67: -983436194
+      tile maps_tebing _68: 1563134091
+      tile maps_tebing _69: 422986723
+      tile maps_tebing _7: -813648101
+      tile maps_tebing _70: -1366551858
+      tile maps_tebing _71: 955920666
+      tile maps_tebing _72: -1122054415
+      tile maps_tebing _73: 1487562559
+      tile maps_tebing _74: 55625714
+      tile maps_tebing _75: -1185781291
+      tile maps_tebing _76: -695595601
+      tile maps_tebing _77: -2046271287
+      tile maps_tebing _78: -331232345
+      tile maps_tebing _79: -1514699321
+      tile maps_tebing _8: -271938580
+      tile maps_tebing _80: 1112935814
+      tile maps_tebing _81: 2053390643
+      tile maps_tebing _82: 1455348550
+      tile maps_tebing _83: -634073227
+      tile maps_tebing _84: 184628134
+      tile maps_tebing _85: -1286426252
+      tile maps_tebing _86: -2718009
+      tile maps_tebing _87: -1074598564
+      tile maps_tebing _88: 235468964
+      tile maps_tebing _89: -185164155
+      tile maps_tebing _9: -1565849
+      tile maps_tebing _90: 1728665617
+      tile maps_tebing _91: -48991852
+      tile maps_tebing _92: -718372936
+      tile maps_tebing _93: 664048553
+      tile maps_tebing _94: -367529569
+      tile maps_tebing _95: -793946674
+      tile maps_tebing _96: 1088770494
+      tile maps_tebing _97: 1916446193
+      tile maps_tebing _98: -2060497730
+      tile maps_tebing _99: 334842867
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
