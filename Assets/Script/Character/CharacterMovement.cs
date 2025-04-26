@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
+    [SerializeField] GameObject _interactionPopUp;
     [SerializeField] float _speed;
 
     public static bool _canMove = true;
@@ -22,6 +23,7 @@ public class CharacterMovement : MonoBehaviour
         if (_interaction)
         {
             _interaction.GetInteraction();
+            _interactionPopUp.SetActive(false);
             interaction = false;
         }
     }
@@ -46,10 +48,12 @@ public class CharacterMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         _interaction = collision.GetComponent<Interaction>();
+        if (_interaction != null) _interactionPopUp.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         _interaction = null;
+        _interactionPopUp.SetActive(false);
     }
 }

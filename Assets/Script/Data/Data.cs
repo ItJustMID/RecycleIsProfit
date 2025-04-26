@@ -22,6 +22,7 @@ public class Seller
 {
     public string _nameItem;
     public int _amountItem;
+    public int _priceItem;
 }
 
 [System.Serializable]
@@ -34,6 +35,7 @@ public class NumberGacha
 [System.Serializable]
 public class Upgrade
 {
+    public Sprite _icon;
     public ItemForSell _itemData;
     public GameObject _buttonItem;
     public int _price;

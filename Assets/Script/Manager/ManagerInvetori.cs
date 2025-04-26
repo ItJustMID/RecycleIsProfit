@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 
 
 public class ManagerInvetori : MonoBehaviour
@@ -12,22 +13,13 @@ public class ManagerInvetori : MonoBehaviour
     public List<ItemForSell> _listItem;
     public Upgrade[] _listUpgrade;
 
-    [SerializeField] TextMeshProUGUI[] _amount;
-
-    [Space(10)] public float _money;
-    [SerializeField] TextMeshProUGUI _totalMoney;
+    [SerializeField, Space(10)] TextMeshProUGUI _totalMoney;
+    public float _money;
+    float _moneyText;
 
     private void Awake()
     {
         Instance = this;
-    }
-
-    private void Update()
-    {
-        for(int i = 0; i < _amount.Length; i++)
-        {
-            _amount[i].text = _inventoriSlot[i]._amountItem.ToString();
-        }
     }
 
     public void GetInventoryItem(string name)
@@ -42,9 +34,14 @@ public class ManagerInvetori : MonoBehaviour
         }
     }
 
-    public void UpdateMoney(float amount)
+    public IEnumerator UpdateMoney(float amount)
     {
         _money += amount;
-        _totalMoney.text = _money.ToString();
+        while (_moneyText < _money + amount)
+        {
+            _moneyText = Mathf.MoveTowards(_moneyText, _money, 500 * Time.deltaTime);
+            _totalMoney.text = _moneyText.ToString("N0");
+            yield return new WaitWhile(() => _moneyText == _money);
+        }
     }
 }

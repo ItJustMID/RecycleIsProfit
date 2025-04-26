@@ -3,7 +3,6 @@ using UnityEngine;
 public class RandomSellStock : MonoBehaviour
 {
     static string[] _nameItems;
-    static int _numberArray = 0;
 
     private void Start()
     {
@@ -23,9 +22,12 @@ public class RandomSellStock : MonoBehaviour
     {
         seller._nameItem = _nameItems[Random.Range(0, _nameItems.Length)];
         seller._amountItem = Random.Range(1, 11);
-        if (_numberArray < _nameItems.Length - 1)
-            _numberArray++;
-        else
-            _numberArray = 0;
+        for (int i = 0; i < _nameItems.Length; i++)
+        {
+            if (seller._nameItem == ManagerInvetori.Instance._listItem[i]._nameItem)
+            {
+                seller._priceItem = seller._amountItem * ManagerInvetori.Instance._listItem[i]._price;
+            }
+        }
     }
 }

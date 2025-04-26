@@ -5,14 +5,15 @@ using UnityEngine.UI;
 
 public class MoldingProcess : MonoBehaviour
 {
-    [SerializeField] RectTransform[] _position;
     [SerializeField] GameObject _addAndReduceButton;
     [SerializeField] Slider _sliderTimer;
+    [SerializeField] AudioSource _sfx;
 
     [Space(5), Header("Text Reference"), SerializeField]
     TextMeshProUGUI _amountText;
     [SerializeField] TextMeshProUGUI _maxAmountText;
     [SerializeField] TextMeshProUGUI _upgradeAmountText;
+    [SerializeField] Image _upgradeImage;
 
     int _amount;
     int _maxAmount;
@@ -26,7 +27,7 @@ public class MoldingProcess : MonoBehaviour
     private void Start()
     {
         _managerInvetori = ManagerInvetori.Instance;
-        _upgradeAmountText.text = _managerInvetori._listUpgrade[_upgradeArrayList]._price.ToString();
+        _upgradeAmountText.text = _managerInvetori._listUpgrade[_upgradeArrayList]._price.ToString("N0");
     }
 
     public void AddAmount()
@@ -55,11 +56,12 @@ public class MoldingProcess : MonoBehaviour
                 _managerInvetori._listItem[i]._amountItem += _amount / _managerInvetori._listItem[i]._amountNeeded;
                 _managerInvetori._bijiPlastik._amountItem -= _amount;
 
-                _timerCountdown = 2f;
+                _timerCountdown = 5;
                 _sliderTimer.maxValue = _timerCountdown;
                 _sliderTimer.value = _timerCountdown;
 
                 StartCoroutine(TimerMolding());
+                _sfx.Play();
                 return;
             }
             else if (_managerInvetori._listItem[i]._nameItem == _nameItem && _managerInvetori._bijiPlastik._amountItem - _amount < _managerInvetori._listItem[i]._amountNeeded)
@@ -75,8 +77,6 @@ public class MoldingProcess : MonoBehaviour
         _addOrReduce = _managerInvetori._listItem[number]._amountNeeded;
         _maxAmount = _managerInvetori._bijiPlastik._amountItem;
 
-        _addAndReduceButton.GetComponent<RectTransform>().localPosition = new Vector3(-200, _position[number].localPosition.y, 0);
-
         _amount = 0;
         GetUpdateText(_amountText, _maxAmountText);
     }
@@ -85,11 +85,16 @@ public class MoldingProcess : MonoBehaviour
     {
         if (_managerInvetori._money >= _managerInvetori._listUpgrade[_upgradeArrayList]._price)
         {
-            ManagerInvetori.Instance.UpdateMoney(-_managerInvetori._listUpgrade[_upgradeArrayList]._price);
+            StartCoroutine(ManagerInvetori.Instance.UpdateMoney(-_managerInvetori._listUpgrade[_upgradeArrayList]._price));
             _managerInvetori._listUpgrade[_upgradeArrayList]._buttonItem.SetActive(true);
             _managerInvetori._listItem.Add(_managerInvetori._listUpgrade[_upgradeArrayList]._itemData);
             _upgradeArrayList++;
 
+            if (_upgradeArrayList < ManagerInvetori.Instance._listUpgrade.Length)
+            {
+                _upgradeImage.sprite = _managerInvetori._listUpgrade[_upgradeArrayList]._icon;
+                _upgradeAmountText.text = _managerInvetori._listUpgrade[_upgradeArrayList]._price.ToString("N0");
+            }
             RandomSellStock.UpdateListItemSell();
             if (_upgradeArrayList == _managerInvetori._listUpgrade.Length) button.SetActive(false);
         }
@@ -111,8 +116,9 @@ public class MoldingProcess : MonoBehaviour
             yield return null;
             if (_timerCountdown < 0)
             {
-                ManagerUI.Instance.UpdateSellingReference(_managerInvetori);
+                ManagerUI.Instance.UpdateAmountItemToolbar();
                 _amount = 0;
+                _sfx.Stop();
             }
         }
     }

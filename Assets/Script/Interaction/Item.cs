@@ -14,6 +14,7 @@ public class Item : Interaction
     public override void GetInteraction()
     {
         ManagerInvetori.Instance.GetInventoryItem(_nameItem);
+        ManagerUI.Instance.UpdateAmountItemToolbar();
         _manager.GetRemoveItem();
         Destroy(gameObject);
     }
