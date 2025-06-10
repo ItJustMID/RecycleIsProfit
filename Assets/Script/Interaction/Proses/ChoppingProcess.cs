@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class ChoppingProcess : MonoBehaviour
 {
-    [SerializeField] RectTransform[] _position;
-    [SerializeField] GameObject _addAndReduceButton;
     [SerializeField] TextMeshProUGUI _amountText;
     [SerializeField] Slider _sliderTimer;
     [SerializeField] AudioSource _sfx;
@@ -15,6 +13,7 @@ public class ChoppingProcess : MonoBehaviour
     int _maxAmount;
     float _timerCountdown;
     string _nameItem;
+    bool _isProsess = false;
     TextMeshProUGUI _amountItemText;
 
     ManagerInvetori _managerInventory;
@@ -44,6 +43,7 @@ public class ChoppingProcess : MonoBehaviour
 
     public void Chopping()
     {
+        if (_isProsess) return;
         for (int i = 0; i < _managerInventory._inventoriSlot.Length; i++)
         {
             if (_managerInventory._inventoriSlot[i]._nameItem == _nameItem && _managerInventory._inventoriSlot[i]._amountItem > 0)
@@ -69,8 +69,6 @@ public class ChoppingProcess : MonoBehaviour
     public void ButtonItem(int number)
     {
         InventoryButtonText(number);
-
-        _addAndReduceButton.GetComponent<RectTransform>().localPosition = new Vector3(-370, _position[number].localPosition.y, 0);
 
         ResetAmount();
     }
@@ -98,6 +96,7 @@ public class ChoppingProcess : MonoBehaviour
     {
         while (_timerCountdown > 0)
         {
+            _isProsess = true;
             _timerCountdown -= Time.deltaTime;
             _sliderTimer.value = _timerCountdown;
             yield return null;
@@ -106,6 +105,7 @@ public class ChoppingProcess : MonoBehaviour
                 ResetAmount();
                 _sfx.Stop();
                 ManagerUI.Instance.UpdateAmountItemToolbar();
+                _isProsess = false;
             }
         }
     }

@@ -18,16 +18,23 @@ public class MoldingProcess : MonoBehaviour
     int _amount;
     int _maxAmount;
     int _addOrReduce;
-    int _upgradeArrayList;
     float _timerCountdown;
     string _nameItem;
+    bool _isProsess = false;
 
     ManagerInvetori _managerInvetori;
 
     private void Start()
     {
         _managerInvetori = ManagerInvetori.Instance;
-        _upgradeAmountText.text = _managerInvetori._listUpgrade[_upgradeArrayList]._price.ToString("N0");
+
+        if (_managerInvetori._upgradeArrayList == _managerInvetori._listUpgrade.Length) return;
+        for (int i = 0; i < _managerInvetori._upgradeArrayList; i++)
+        {
+            _managerInvetori._listUpgrade[i]._buttonItem.SetActive(true);
+        }
+            _upgradeImage.sprite = _managerInvetori._listUpgrade[_managerInvetori._upgradeArrayList]._icon;
+            _upgradeAmountText.text = _managerInvetori._listUpgrade[_managerInvetori._upgradeArrayList]._price.ToString("N0");
     }
 
     public void AddAmount()
@@ -49,6 +56,8 @@ public class MoldingProcess : MonoBehaviour
 
     public void Molding()
     {
+        if (_isProsess) return;
+
         for (int i = 0; i < _managerInvetori._listItem.Count; i++)
         {
             if (_managerInvetori._listItem[i]._nameItem == _nameItem && _managerInvetori._bijiPlastik._amountItem >= _managerInvetori._listItem[i]._amountNeeded)
@@ -83,20 +92,20 @@ public class MoldingProcess : MonoBehaviour
 
     public void ButtonUpgrade(GameObject button)
     {
-        if (_managerInvetori._money >= _managerInvetori._listUpgrade[_upgradeArrayList]._price)
+        if (_managerInvetori._money >= _managerInvetori._listUpgrade[_managerInvetori._upgradeArrayList]._price)
         {
-            StartCoroutine(ManagerInvetori.Instance.UpdateMoney(-_managerInvetori._listUpgrade[_upgradeArrayList]._price));
-            _managerInvetori._listUpgrade[_upgradeArrayList]._buttonItem.SetActive(true);
-            _managerInvetori._listItem.Add(_managerInvetori._listUpgrade[_upgradeArrayList]._itemData);
-            _upgradeArrayList++;
+            StartCoroutine(ManagerInvetori.Instance.UpdateMoney(-_managerInvetori._listUpgrade[_managerInvetori._upgradeArrayList]._price));
+            _managerInvetori._listUpgrade[  _managerInvetori._upgradeArrayList]._buttonItem.SetActive(true);
+            _managerInvetori._listItem.Add(_managerInvetori._listUpgrade[   _managerInvetori._upgradeArrayList]._itemData);
+            _managerInvetori._upgradeArrayList++;
 
-            if (_upgradeArrayList < ManagerInvetori.Instance._listUpgrade.Length)
+            if (_managerInvetori._upgradeArrayList < ManagerInvetori.Instance._listUpgrade.Length)
             {
-                _upgradeImage.sprite = _managerInvetori._listUpgrade[_upgradeArrayList]._icon;
-                _upgradeAmountText.text = _managerInvetori._listUpgrade[_upgradeArrayList]._price.ToString("N0");
+                _upgradeImage.sprite = _managerInvetori._listUpgrade[_managerInvetori._upgradeArrayList]._icon;
+                _upgradeAmountText.text = _managerInvetori._listUpgrade[_managerInvetori._upgradeArrayList]._price.ToString("N0");
             }
             RandomSellStock.UpdateListItemSell();
-            if (_upgradeArrayList == _managerInvetori._listUpgrade.Length) button.SetActive(false);
+            if (_managerInvetori._upgradeArrayList == _managerInvetori._listUpgrade.Length) button.SetActive(false);
         }
         else Debug.Log("Not Enough Money");
     }
@@ -111,6 +120,7 @@ public class MoldingProcess : MonoBehaviour
     {
         while (_timerCountdown > 0)
         {
+            _isProsess = true;
             _timerCountdown -= Time.deltaTime;
             _sliderTimer.value = _timerCountdown;
             yield return null;
@@ -119,6 +129,7 @@ public class MoldingProcess : MonoBehaviour
                 ManagerUI.Instance.UpdateAmountItemToolbar();
                 _amount = 0;
                 _sfx.Stop();
+                _isProsess = false;
             }
         }
     }

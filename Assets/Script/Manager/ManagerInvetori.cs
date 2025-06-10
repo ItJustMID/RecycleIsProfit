@@ -12,6 +12,7 @@ public class ManagerInvetori : MonoBehaviour
     public InventorySlot _bijiPlastik;
     public List<ItemForSell> _listItem;
     public Upgrade[] _listUpgrade;
+    public int _upgradeArrayList;
 
     [SerializeField, Space(10)] TextMeshProUGUI _totalMoney;
     public float _money;
@@ -20,6 +21,7 @@ public class ManagerInvetori : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        SaveSystem.instance.LoadFile();
     }
 
     public void GetInventoryItem(string name)
@@ -37,7 +39,7 @@ public class ManagerInvetori : MonoBehaviour
     public IEnumerator UpdateMoney(float amount)
     {
         _money += amount;
-        while (_moneyText < _money + amount)
+        while (_moneyText != _money + amount)
         {
             _moneyText = Mathf.MoveTowards(_moneyText, _money, 500 * Time.deltaTime);
             _totalMoney.text = _moneyText.ToString("N0");
